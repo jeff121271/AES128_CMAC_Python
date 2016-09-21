@@ -12,9 +12,6 @@ import binascii
 from struct import pack, unpack
 from Crypto.Cipher import AES
 
-# This is a test, should only show up
-# in the change branch.
-
 # pad_128
 # Pads a block to 128 bits.
 #   A (bytes) = Block to pad
