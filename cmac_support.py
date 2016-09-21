@@ -12,6 +12,10 @@ import binascii
 from struct import pack, unpack
 from Crypto.Cipher import AES
 
+# Added just to practice branching and such
+def my_function(a):
+     print('hello world')
+
 # pad_128
 # Pads a block to 128 bits.
 #   A (bytes) = Block to pad
